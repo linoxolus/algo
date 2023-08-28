@@ -11,7 +11,7 @@ void selectionSort(vector <int> &arr) {
         }
       }
 
-      if(index != temp) {
+      if(index != i) {
         temp = arr[i];
         arr[i] = arr[index];
         arr[index] = temp;
